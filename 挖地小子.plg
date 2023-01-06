@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 挖地小子 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Anthony\AppData\Local\Temp\RSPBCB6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/挖地小子.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\挖地小子\code5.cpp"
+]
+Creating command line "cl.exe @C:\Users\Anthony\AppData\Local\Temp\RSPBCB6.tmp" 
+Creating temporary file "C:\Users\Anthony\AppData\Local\Temp\RSPBCB7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/挖地小子.pdb" /debug /machine:I386 /out:"Debug/挖地小子.exe" /pdbtype:sept 
+".\Debug\code5.obj"
+]
+Creating command line "link.exe @C:\Users\Anthony\AppData\Local\Temp\RSPBCB7.tmp"
+<h3>Output Window</h3>
+Compiling...
+code5.cpp
+D:\挖地小子\code5.cpp(306) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(307) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(308) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(309) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(310) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(311) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(312) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(313) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(314) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(315) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(323) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(324) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(325) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(326) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(327) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(328) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(329) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(330) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(331) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(332) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(441) : warning C4553: '==' : operator has no effect; did you intend '='?
+D:\挖地小子\code5.cpp(487) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(487) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(489) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(489) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(491) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(491) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(493) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(493) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(495) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(495) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(497) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(497) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(499) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(499) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(501) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(501) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(505) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(505) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(507) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(507) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(509) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(509) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(511) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(511) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(513) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(513) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(515) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(515) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(519) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(519) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(521) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(521) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(523) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(523) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(525) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(525) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(527) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(527) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(529) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(529) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(531) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(531) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(535) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(535) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(537) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(537) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(539) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(539) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(541) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(541) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(543) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(543) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(545) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(545) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(547) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(547) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(549) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(549) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(561) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(561) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(562) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(562) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(955) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(973) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(977) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(985) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(989) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\挖地小子\code5.cpp(1085) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1085) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1086) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1086) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1093) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1093) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1094) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1094) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1103) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1103) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1104) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1104) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1113) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1113) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1114) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1114) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1121) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1121) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1122) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1122) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1138) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1138) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1139) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1139) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1147) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1147) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1148) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1148) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1164) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1164) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1165) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1165) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1173) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1173) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1174) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1174) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1183) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1183) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1184) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1184) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1190) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1190) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1191) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1191) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1223) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1223) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1224) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1224) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1237) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1237) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1238) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1238) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1079) : warning C4101: 'j' : unreferenced local variable
+D:\挖地小子\code5.cpp(1429) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1429) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1430) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1430) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1431) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1431) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1461) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1461) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1462) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1462) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1463) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+D:\挖地小子\code5.cpp(1463) : warning C4244: 'argument' : conversion from 'const double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+挖地小子.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
