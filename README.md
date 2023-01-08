@@ -1,9 +1,10 @@
 # Navvy-Man
 Navvy Man is a fun C language game built with easyX. Players navigate through challenges and obstacles to reach their destination. I completed this project in my freshman year
 
-
+<center>
 ## Demonstration Video
 [![Watch the video](https://github.com/vincezh2000/Navvy-Man/blob/main/Navvy_logo.jpg)](https://youtu.be/vbmYn1qS_FU)
+<center/>
 
 ## Demonstration Video
 <div align="center">
