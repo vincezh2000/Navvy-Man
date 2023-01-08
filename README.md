@@ -131,7 +131,7 @@ __Hidden benefit__:
 
 ### Download From Official Releases and Requirment
 
-You can visit the download pages of [EasyX](https://easyx.cn/), [MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) and [Visual C++ 6.0](https://winworldpc.com/product/visual-c/6x) (Can be replaced with high version of visual studio) to easily install them. 
+You can visit the download pages of [EasyX](https://easyx.cn/), [MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) and [Visual C++ 6.0](https://winworldpc.com/product/visual-c/6x) (Can be replaced with high version of visual studio) to easily install them. Open this project in Visual C++ 6.0 and then run [挖地小子.exe](https://github.com/vincezh2000/Navvy-Man/blob/main/main/挖地小子.exe).
 
 **Windows** operation system only according to the usage of MFC!
 
