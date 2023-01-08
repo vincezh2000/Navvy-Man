@@ -1,9 +1,10 @@
-<div id="top">
-# Navvy-Man
-Navvy Man is a fun C language game built with easyX. Players navigate through challenges and obstacles to reach their destination. I completed this project in my freshman year
-</div>
+<div id="top"></div>
+
+## Navvy-Man
+Navvy Man is a fun C language game built with easyX. Players navigate through challenges and obstacles to reach their destination. I completed this project in my freshman year.
 
 ## Demonstration Video
+
 <div align="center">
    <a href="https://youtu.be/vbmYn1qS_FU">
    <img src="https://github.com/vincezh2000/Navvy-Man/blob/main/Navvy_logo.jpg" width="600" />
@@ -28,132 +29,120 @@ Navvy Man is a fun C language game built with easyX. Players navigate through ch
 <ul> 
 
 
-
 ## Features
 
-Colossal-AI provides a 
+With [EasyX](https://easyx.cn/), [MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) and [Visual C++ 6.0](https://winworldpc.com/product/visual-c/6x):
 
-- Parallelism strategies
-  - Data Parallelism
-  - 1D, [2D](https://arxiv.org/abs/2104.05343), [2.5D](https://arxiv.org/abs/2105.14500), 
+- Implemented basic behaviors and associated attributes for characters and displayed them in animation form.
+- Implemented the coexistence of multiple monsters in the game interface and simulated their automatic movement.
+- Implemented switching between multiple game interfaces.
+- Implemented saving and loading functions for the game.
+- Implemented a points system and a mechanism for winning the game.
+- Implemented interaction between the character and NPCs.
+- Implemented a battle screen between the character and monsters.
+- Implemented automatic playback of background music.
+- Implemented a mining system and an automatic recovery function for mines.
+
+
+## Game background and rules introduction:
+
+Akio, who lives in the peaceful Republic, likes to learn digging techniques. He leads a comfortable life every day. Suddenly one day, a group of monsters jumped out of a crack in the ground and started capturing young girls from the village. Akio's girlfriend was also captured! These villains want to dominate the underground world. In order to rescue his beloved girlfriend, Akio takes out his drill and sets off on a journey! Sell the mined minerals, and the Doctor will provide some items and upgrade equipment. Head to the depths of the underground and battle the monster clan to save your girlfriend. 
+
+__Control keys__:
+
+ 	'w' fly up;
+ 	's' dig down if there is a block below the character;
+ 	'a' move left if there is no block to the left, otherwise dig left;
+ 	'd' move right if there is no block to the right, otherwise dig right;
+ 	'j' place a bomb;
+ 	'k' use an energy pack to increase energy;
+ 	'l' use an oxygen pack to increase oxygen
+
+__Shop Operations__: 
+
+	Press '1' to buy a bomb for 500;
+	Press '2' to upgrade energy level;
+	Press '3' to upgrade oxygen level;
+	Press '4' to buy an oxygen pack;
+	Press '5' to buy an energy pack.
+
+## Game Goal
+
+	Continuously mine minerals and use the money earned from selling them to upgrade items and defeat three villains.
+
+__Rules for Digging Boy__:
+
+	Initial economy of 500 score;
+	Score will automatically increase;
+	Use score to upgrade and buy equipment;
+	Flying up requires energy consumption;
+	Being underground requires oxygen consumption;
+	Running underground will accelerate oxygen consumption;
+	Running on the ground will accelerate energy and oxygen recovery;
+	All actions of the character will slow down in level 2;
+	Coming into contact with monsters will decrease oxygen;
+	Bombs will kill monsters and also injure the character.
+
+__Hidden benefit__:
+
+	Coal blocks have regenerative abilities as long as you don't destroy their source (picking up a coal block and not digging it for a few seconds before it regenerates will cause it to automatically recover).
 
 
 ## Game Demo Screenshots
 
-### GPT-3
 <p align="center">
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/GPT3-v5.png" width=700/>
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo10.png" width="450" />
 </p>
 
-- Save 50% GPU resources, and 10.7% acceleration
-
-### BERT
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/BERT.png" width=800/>
-
-- 2x faster training, or 50% longer sequence length
-
-### ViT
 <p align="center">
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/ViT.png" width="450" />
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo11.png" width="450" />
 </p>
 
-- 14x larger batch size, and 5x faster training for Tensor Parallelism = 64
-
-### Recommendation System Models
-- [Cached Embedding](https://github.com/hpcaitech/CachedEmbedding), utilize software cache to train larger embedding tables with a smaller GPU memory budget.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Single GPU Training Demo
-
-- [BLOOM](https://github.com/hpcaitech/EnergonAI/tree/main/examples/bloom): Reduce hardware deployment costs of 175-billion-parameter BLOOM by more than 10 times.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Colossal-AI in the Real World
-
-### AIGC
-Acceleration of AIGC (AI-Generated Content) models such as [Stable Diffusion v1](https://github.com/CompVis/stable-diffusion) and [Stable Diffusion v2](https://github.com/Stability-AI/stablediffusion).
-<p id="diffusion_train" align="center">
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/Stable%20Diffusion%20v2.png" width=800/>
+<p align="center">
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo12.png" width="450" />
 </p>
 
-- [Training](https://github.com/hpcaitech/ColossalAI/tree/main/examples/images/diffusion): Reduce Stable Diffusion memory consumption by up to 5.6x and hardware cost by up to 46x (from A100 to RTX3060).
+<p align="center">
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo5.png" width="450" />
+</p>
+
+<p align="center">
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo6.png" width="450" />
+</p>
+
+<p align="center">
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo7.png" width="450" />
+</p>
+
+<p align="center">
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo8.png" width="450" />
+</p>
+
+<p align="center">
+<img src="https://github.com/vincezh2000/vincezh/blob/main/public_assests/navvy_man_demo/demo9.png" width="450" />
+</p>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 ## Installation
 
-### Download From Official Releases
+### Download From Official Releases and Requirment
 
-You can visit the [Download](https://www.colossalai.org/download) page to download Colossal-AI with pre-built CUDA extensions.
+You can visit the download pages of [EasyX](https://easyx.cn/), [MFC](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) and [Visual C++ 6.0](https://winworldpc.com/product/visual-c/6x) (Can be replaced with high version of visual studio) to easily install them. 
 
-
-### Download From Source
-
-> The version of Colossal-AI will be in line with the main branch of the repository. Feel free to raise an issue if you encounter any problem. :)
-
-```shell
-git clone https://github.com/hpcaitech/ColossalAI.git
-cd ColossalAI
-
-# install dependency
-pip install -r requirements/requirements.txt
-
-# install colossalai
-pip install .
-```
-
-By default, we do not compile CUDA/C++ kernels. ColossalAI will build them during runtime.
-If you want to install and enable CUDA kernel fusion (compulsory installation when using fused optimizer):
-
-```shell
-CUDA_EXT=1 pip install .
-```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Use Docker
-
-### Pull from DockerHub
-
-You can directly pull the docker image from our [DockerHub page](https://hub.docker.com/r/hpcaitech/colossalai). The image is automatically uploaded upon release.
-
-
-### Build On Your Own
-
-Run the following command to build a docker image from Dockerfile provided.
-
-> Building Colossal-AI from scratch requires GPU support, you need to use Nvidia Docker Runtime as the default when doing `docker build`. More details can be found [here](https://stackoverflow.com/questions/59691207/docker-build-with-nvidia-runtime).
-> We recommend you install Colossal-AI from our [project page](https://www.colossalai.org) directly.
-
-
-```bash
-cd ColossalAI
-docker build -t colossalai ./docker
-```
-
-Run the following command to start the docker container in interactive mode.
-
-```bash
-docker run -ti --gpus all --rm --ipc=host colossalai bash
-```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+**Windows** operation system only according to the usage of MFC!
 
 ## Homepage
 
-Welcome to my personal [homepage](https://vincezh2000.github.io/vincezh/), Feel free to contact me!
+Welcome to my personal [homepage](https://vincezh2000.github.io/vincezh/), pleas feel free to contact me!
 
 ## Contributing
 
-If you wish to contribute to this project, please follow the guideline in [Contributing](./CONTRIBUTING.md).
 
 Thanks so much to all of our amazing contributors!
 
-<a href="https://github.com/vincezh2000/Navvy-Man/graphs/contributors"><img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/contributor_avatar.png" width="800px"></a>
-
-*The order of contributor avatars is randomly shuffled.*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
