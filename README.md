@@ -18,14 +18,25 @@ Navvy Man is a fun C language game built with easyX. Players navigate through ch
 
 ## Table of Contents
 <ul>
- <li><a href="#Why-Colossal-AI">Why Colossal-AI</a> </li>
+ <li><a href="#Features"> Features </a> </li>
  <li>
-   <a href="#Parallel-Training-Demo">Parallel Training Demo</a>
+   <a href="#Game background and rules introduction">Game background and rules introduction</a>
    <ul>
-     <li><a href="#GPT-3">GPT-3</a></li>
-     <li><a href="#Recommendation-System-Models">Recommendation System Models</a></li>
+     <li><a href="#Control keys">Control keys</a></li>
+     <li><a href="#Shop Operations">Shop Operations</a></li>
    </ul>
  </li>
+<li><a href="#Game Goal">Game Goal</a> 
+   <ul>
+     <li><a href="#Rules for Digging Boy">Rules for Digging Boy</a></li>
+     <li><a href="#Hidden benefit">Hidden benefit</a></li>
+   </ul>
+</li>
+<li><a href="#Game Demo Screenshots">Game Demo Screenshots</a> </li>
+<li><a href="#Installation">Installation</a> </li>
+<li><a href="#Homepage">Homepage</a> </li>
+<li><a href="#Contributing">Contributing</a> </li>
+
 <ul> 
 
 
@@ -44,11 +55,11 @@ With [EasyX](https://easyx.cn/), [MFC](https://learn.microsoft.com/en-us/cpp/mfc
 - Implemented a mining system and an automatic recovery function for mines.
 
 
-## Game background and rules introduction:
+## Game background and rules introduction
 
 Akio, who lives in the peaceful Republic, likes to learn digging techniques. He leads a comfortable life every day. Suddenly one day, a group of monsters jumped out of a crack in the ground and started capturing young girls from the village. Akio's girlfriend was also captured! These villains want to dominate the underground world. In order to rescue his beloved girlfriend, Akio takes out his drill and sets off on a journey! Sell the mined minerals, and the Doctor will provide some items and upgrade equipment. Head to the depths of the underground and battle the monster clan to save your girlfriend. 
 
-__Control keys__:
+### Control keys:
 
  	'w' fly up;
  	's' dig down if there is a block below the character;
@@ -58,7 +69,7 @@ __Control keys__:
  	'k' use an energy pack to increase energy;
  	'l' use an oxygen pack to increase oxygen
 
-__Shop Operations__: 
+### Shop Operations: 
 
 	Press '1' to buy a bomb for 500;
 	Press '2' to upgrade energy level;
@@ -70,7 +81,7 @@ __Shop Operations__:
 
 	Continuously mine minerals and use the money earned from selling them to upgrade items and defeat three villains.
 
-__Rules for Digging Boy__:
+### Rules for Digging Boy:
 
 	Initial economy of 500 score;
 	Score will automatically increase;
@@ -83,7 +94,7 @@ __Rules for Digging Boy__:
 	Coming into contact with monsters will decrease oxygen;
 	Bombs will kill monsters and also injure the character.
 
-__Hidden benefit__:
+### Hidden benefit:
 
 	Coal blocks have regenerative abilities as long as you don't destroy their source (picking up a coal block and not digging it for a few seconds before it regenerates will cause it to automatically recover).
 
